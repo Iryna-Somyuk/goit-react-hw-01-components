@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 
-
 export const Profile = ({ username, tag, location, avatar, stats: { followers, views, likes }}) => {
     return <div  key={username}>
     <div>
